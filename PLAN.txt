@@ -1,0 +1,29 @@
+App.
+    search for a city
+    get Radar and Satellite Imagery
+
+Page-
+Accuweather API https://developer.accuweather.com/
+City. Search
+Fetch
+    http://dataservice.accuweather.com/locations/v1/cities/search
+    search?apikey={}&q={}
+Responses
+    Key (Location key)
+    LocalizedName
+    EnglishName
+    Country.LocalizedName
+    Country.EnglishName
+Radar. and Imagery Fetch
+Fetch
+    http://dataservice.accuweather.com/imagery/v1/maps/radsat/
+    1024x1024/
+    {locationKey}?
+    ?apikey={} 
+Responses
+    Radar.Images.Url
+    Satellite.Images.Url 
+
+Page-
+List of previous search locations
+    Interact with delete button
